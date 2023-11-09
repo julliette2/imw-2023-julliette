@@ -1,0 +1,94 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.middle
+{
+    width: 700px;
+    height: 250px;
+    background: lightskyblue;
+    border-bottom: 70px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.circle
+{
+    margin-top: 255px;
+    margin-left: 250px;
+    background-color:#A37850;
+    height: 50px;
+    width: 220px;
+    border-radius: 50%;
+    position:absolute;
+    border: 5px solid #694F37;
+}
+ /* Flower center */
+ .center {
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    padding-top: 5;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -80px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    width: 70px;
+    height: 70px;
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0,0,0,0,0.19);
+}
+.container
+{
+    padding-top:8%;
+    margin-left: -530px;
+}
+#box1{
+    border-radius: 0px 100px 0px 100px;
+    background: linear-gradient(160deg, #ee0979 0%, #ff6a00 100%) 
+}
+#box2 {
+    border-radius: 100px 0px 100px 0px;
+    background: linear-gradient(220deg, #ee0979 0%, #ff6a00 100%) 
+}
+#box3{
+    border-radius: 100px 0px 100px 0px;
+    background: linear-gradient(30deg, #ee0979 0%, #ff6a00 100%)
+}
+#box4{
+   border-radius: 0px 100px 0px 100px;
+   background: linear-gradient(320deg, #ee0979 0%, #ff6a00 100%) 
+}
+
+.line{
+
+    position: absolute;
+    bottom: -35px;
+    width: 6px;
+    height: 100px;
+    margin-bottom: 290px;
+    margin-left: 365px;
+    background-color: #3C9A3A;
+    transform-origin: bottom;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

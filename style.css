@@ -1,0 +1,102 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.start
+{
+    width: 700px;
+    height: 250px;
+    background: lightskyblue;
+    border-bottom: 70px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.circle
+{
+    margin-top: 310px;
+    background-color:#A37850;
+    height: 50px;
+    width: 220px;
+    border-radius: 50%;
+    position:absolute;
+    border: 5px solid #694F37;
+
+}
+.seed
+{
+    margin-top: 310px;
+    background-color:#564c43;
+    height: 10px;
+    width: 30px;
+    border-radius: 50%;
+    position:absolute;
+}
+.seedshine
+{
+    margin-top: 310px;
+    margin-right: 15px;
+    background-color:#a38b3d;
+    height: 4px;
+    width: 10px;
+    border-radius: 50%;
+    position:absolute;
+}
+.rectangle1
+{
+    margin-top: 190px;
+    margin-right: 170px;
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 30%;
+    box-shadow: 10px 10px 15px grey;
+    transform:rotate(40deg);
+    position: absolute;
+
+}
+.rectangle2
+{
+    margin-top: 150px;
+    margin-right: 130px;
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 30%;
+    box-shadow: 10px 10px 15px grey;
+    transform:rotate(60deg);
+    position: absolute;
+}
+.rectangle3
+{
+    margin-top: 150px;
+    margin-right: -150px;
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 30%;
+    box-shadow: 10px 10px 15px grey;
+    transform:rotate(-40deg);
+    position: absolute;
+}
+.rectangle4
+{
+    margin-top: 200px;
+    margin-right: -170px;
+    width: 35px;
+    height: 5px;
+    background-color: yellow;
+    border-radius: 30%;
+    box-shadow: 10px 10px 15px grey;
+    transform:rotate(-15deg);
+}
